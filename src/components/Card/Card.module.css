@@ -1,0 +1,22 @@
+.card {
+    height: 300px;
+    border: 1px solid #000000;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 calc(50% - 20px);
+}
+.card h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.card button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+}
