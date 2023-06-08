@@ -14,6 +14,5 @@ export const sortedCards = (cards:number[]): number[] => {
             right.push(cards[i]);
         }
     }
-    // Recursively sort the sub-arrays and combine the results
     return [...sortedCards(left), pivot, ...sortedCards(right)];
 }
